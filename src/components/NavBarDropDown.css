@@ -1,0 +1,33 @@
+.dropbtn {
+   
+  
+    font-size: 24px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: flex;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    
+    min-width: 400px;
+  
+    z-index: 10;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 50px 50px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {}
+  
+  .dropdown:hover .dropdown-content {display: block;width: 100%;top: 100px;}
+  
+  .dropdown:hover .dropbtn {}
